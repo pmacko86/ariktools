@@ -1,0 +1,3 @@
+ArikTools is a tool for secretly hiding messages in uncompressed or losslessly compressed images, such as PNGs, and a suite of several steganalytic tools for manually inspecting images.
+
+The program is a canonical implementation of the XLSB steganographic algorithm, developed by the tool's original authors, which can hide large amounts of data in losslessly compressed images. It builds upon the canonical LSB approach, but unlike it, it is very careful to preserve a wide range of statistical properties, avoiding most (if not all) steganalytic techniques known at the time XLSB was originally developed (end of 2007).
